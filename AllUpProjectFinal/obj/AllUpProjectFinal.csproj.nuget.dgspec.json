@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\AllUpProjectFinal\\AllUpProjectFinal.csproj": {}
+    "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\AllUpProjectFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\AllUpProjectFinal\\AllUpProjectFinal.csproj": {
+    "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\AllUpProjectFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\AllUpProjectFinal\\AllUpProjectFinal.csproj",
+        "projectUniqueName": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\AllUpProjectFinal.csproj",
         "projectName": "AllUpProjectFinal",
-        "projectPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\AllUpProjectFinal\\AllUpProjectFinal.csproj",
-        "packagesPath": "C:\\Users\\allah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\AllUpProjectFinal\\obj\\",
+        "projectPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\AllUpProjectFinal.csproj",
+        "packagesPath": "C:\\Users\\Asiman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\allah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Business\\Business.csproj"
+              "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Business.csproj"
               }
             }
           }
@@ -84,17 +84,17 @@
         }
       }
     },
-    "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Business\\Business.csproj": {
+    "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\allah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Business\\obj\\",
+        "projectPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\Asiman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\allah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -109,8 +109,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Data\\Data.csproj"
+              "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Data.csproj"
               }
             }
           }
@@ -129,6 +129,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -149,17 +159,17 @@
         }
       }
     },
-    "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Core\\Core.csproj": {
+    "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\allah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Asiman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\allah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -210,17 +220,17 @@
         }
       }
     },
-    "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Data\\Data.csproj": {
+    "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\allah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Data\\obj\\",
+        "projectPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Asiman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\allah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -235,8 +245,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Core\\Core.csproj"
+              "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Core.csproj"
               }
             }
           }

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\allah\\.nuget\\packages\\": {}
+    "C:\\Users\\Asiman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\allah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Core\\obj\\",
+      "projectPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\Asiman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\allah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

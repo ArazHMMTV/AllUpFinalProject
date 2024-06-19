@@ -1,14 +1,18 @@
 ﻿using Core.Models.Common;
+using System.Linq.Expressions;
 
-namespace Core.RepositoryAbstract
+namespace Core.RepositoryAbstract;
+
+public interface IGenericRepository<T> where T : BaseEntity, new()
 {
-    public interface IGenericRepository<T> where T : BaseEntity, new()
-    {
-        Task  AddAsync(T entity);
-        void Delete(T entity);
-        int Commit();
-        Task<int> CommitAsync();
-        T Get(Func<T, bool>? func=null);
-        List<T> GetAll(Func<T, bool>? func = null);
-    }
+    IQueryable<T> GetAll(params string[] includes);
+    IQueryable<T> GetFiltered(Expression<Func<T, bool>> expression, params string[] includes);
+    Task<T?> GetSingleAsync(Expression<Func<T, bool>> expression, params string[] includes);
+
+    Task<bool> IsExistAsync(Expression<Func<T, bool>> expression);
+    Task CreateAsync(T entity);
+    void Update(T entity);
+    void Delete(T entity);
+   
+    Task<int> SaveAsync();
 }

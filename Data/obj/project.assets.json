@@ -2029,19 +2029,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\allah\\.nuget\\packages\\": {}
+    "C:\\Users\\Asiman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\allah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Data\\obj\\",
+      "projectPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\Asiman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\allah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2056,8 +2056,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\Core\\Core.csproj"
+            "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Core.csproj"
             }
           }
         }

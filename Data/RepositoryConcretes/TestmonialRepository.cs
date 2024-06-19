@@ -2,12 +2,11 @@
 using Core.RepositoryAbstract;
 using Data.DAL;
 
-namespace Data.RepositoryConcretes
+namespace Data.RepositoryConcretes;
+
+public class TestmonialRepository : GenericRepository<Testimonial>, ITestimonialRepository
 {
-    public class TestmonialRepository : GenericRepository<Testimonial>, ITestimonialRepository
+    public TestmonialRepository(AppDbContext appDbContext) : base(appDbContext)
     {
-        public TestmonialRepository(AppDbContext appDbContext) : base(appDbContext)
-        {
-        }
     }
 }

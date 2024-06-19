@@ -1,12 +1,447 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\allah\\OneDrive\\Desktop\\AllUpProjectForFinal\\AllUpProjectFinal\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\views\\tag\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\views\\tag\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\viewmodels\\tagviewmodels\\tagcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\concretes\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\abstracts\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CFE888-B592-46FF-9030-2FC7C6548616}|..\\Data\\Data.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\data\\migrations\\20240619160158_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CFE888-B592-46FF-9030-2FC7C6548616}|..\\Data\\Data.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\data\\repositoryconcretes\\testmonialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\companyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\repositoryabstract\\itestimonialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CFE888-B592-46FF-9030-2FC7C6548616}|..\\Data\\Data.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\data\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\repositoryabstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CFE888-B592-46FF-9030-2FC7C6548616}|..\\Data\\Data.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\data\\repositoryconcretes\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CFE888-B592-46FF-9030-2FC7C6548616}|..\\Data\\Data.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\data\\repositoryconcretes\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Tag\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Tag\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Tag\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Tag\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T16:17:19.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T16:16:32.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Tag\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Tag\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Tag\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Tag\\Index.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAcwCIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T16:15:34.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\TagController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\TagController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\TagController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:14:40.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TagService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\TagService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\TagService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\TagService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Concretes\\TagService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:05:23.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TagCreateVm.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\TagViewModels\\TagCreateVm.cs",
+              "RelativeDocumentMoniker": "..\\Business\\ViewModels\\TagViewModels\\TagCreateVm.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\TagViewModels\\TagCreateVm.cs",
+              "RelativeToolTip": "..\\Business\\ViewModels\\TagViewModels\\TagCreateVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:03:33.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240619160158_init.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Migrations\\20240619160158_init.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240619160158_init.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Migrations\\20240619160158_init.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240619160158_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:01:58.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\ProductImage.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\ProductImage.cs",
+              "RelativeToolTip": "..\\Core\\Models\\ProductImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:39:59.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITagService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\ITagService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\ITagService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\ITagService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Abstracts\\ITagService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:32:45.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-19T15:57:44.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:54:12.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:33:19.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TestmonialRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\RepositoryConcretes\\TestmonialRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data\\RepositoryConcretes\\TestmonialRepository.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\RepositoryConcretes\\TestmonialRepository.cs",
+              "RelativeToolTip": "..\\Data\\RepositoryConcretes\\TestmonialRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:55:00.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductTag.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\ProductTag.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\ProductTag.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\ProductTag.cs",
+              "RelativeToolTip": "..\\Core\\Models\\ProductTag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:50:31.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Setting.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\Setting.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Setting.cs",
+              "RelativeToolTip": "..\\Core\\Models\\Setting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:54:40.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Tag.cs",
+              "RelativeToolTip": "..\\Core\\Models\\Tag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:54:37.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ITestimonialRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\RepositoryAbstract\\ITestimonialRepository.cs",
+              "RelativeDocumentMoniker": "..\\Core\\RepositoryAbstract\\ITestimonialRepository.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\RepositoryAbstract\\ITestimonialRepository.cs",
+              "RelativeToolTip": "..\\Core\\RepositoryAbstract\\ITestimonialRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:53:11.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Data\\DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\DAL\\AppDbContext.cs",
+              "RelativeToolTip": "..\\Data\\DAL\\AppDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:46:03.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\RepositoryAbstract\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\Core\\RepositoryAbstract\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\RepositoryAbstract\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\Core\\RepositoryAbstract\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:16:24.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Product.cs",
+              "RelativeToolTip": "..\\Core\\Models\\Product.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvxoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:55:22.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CompanyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\CompanyInfo.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\CompanyInfo.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\CompanyInfo.cs",
+              "RelativeToolTip": "..\\Core\\Models\\CompanyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:55:21.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "..\\Core\\Models\\Common\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:31:51.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:55:00.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\RepositoryConcretes\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data\\RepositoryConcretes\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\RepositoryConcretes\\GenericRepository.cs",
+              "RelativeToolTip": "..\\Data\\RepositoryConcretes\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:54:48.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\RepositoryConcretes\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data\\RepositoryConcretes\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\RepositoryConcretes\\CategoryRepository.cs",
+              "RelativeToolTip": "..\\Data\\RepositoryConcretes\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:54:37.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:54:14.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "Controllers\\AboutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:54:09.434Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

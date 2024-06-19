@@ -1,33 +1,29 @@
 ﻿using Core.Models.Common;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
-namespace Core.Models
+namespace Core.Models;
+
+public class Product : BaseEntity
 {
-    public class Product : BaseEntity
-    {
-        public string Name { get; set; } // hp
-        public string Description { get; set; } // dwnden
-        public decimal Price { get; set; } // 2000
+    public string Name { get; set; } = null!;
+    public string LongDescription { get; set; } = null!;
+    public string ShortDescription { get; set; } = null!;
+    public decimal Price { get; set; }
+    [Range(0,100)]
+    public decimal Discount { get; set; } 
 
-        public bool Availability { get; set; } //  true
-        public string ProductCode { get; set; } // ijdednju
+    public string ProductCode { get; set; } =null!;
+    [Range(0,5)]
+    public decimal Rating { get; set; } = 5;
 
-        public int Quantity { get; set; } // 200
-        public int Discount { get; set; } // 0
+    public int Quantity { get; set; } 
 
 
-        public string ImageUrl { get; set; }  // dmekmk
 
-        public Category Category { get; set; } // notebbok => type?
-        public int CategoryId { get; set; }
+    public Category Category { get; set; } =null!;
+    public int CategoryId { get; set; }
 
-        public ICollection<Type>? Types { get; set; }
-        public ICollection<Tag> Tags { get; set; }
-        public ICollection<ProductImage> ProductImages { get; set; }
+    public ICollection<ProductTag> ProductTags { get; set; } = new List<ProductTag>();
+    public ICollection<ProductImage> ProductImages { get; set; }=new List<ProductImage>();
 
-    }
 }
