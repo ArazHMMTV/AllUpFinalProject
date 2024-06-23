@@ -2,12 +2,11 @@
 using Core.RepositoryAbstract;
 using Data.DAL;
 
-namespace Data.RepositoryConcretes
+namespace Data.RepositoryConcretes;
+
+public class TagRepository : GenericRepository<Tag>, ITagRepository
 {
-    public class TagRepository : GenericRepository<Tag>, ITagRepository
+    public TagRepository(AppDbContext context) : base(context)
     {
-        public TagRepository(AppDbContext context) : base(context)
-        {
-        }
     }
 }

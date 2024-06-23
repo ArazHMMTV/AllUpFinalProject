@@ -1,8 +1,7 @@
 ﻿using Core.Models;
 
-namespace Core.RepositoryAbstract
+namespace Core.RepositoryAbstract;
+
+public interface ITagRepository : IGenericRepository<Tag>
 {
-    public interface ITagRepository : IGenericRepository<Tag>
-    {
-    }
 }

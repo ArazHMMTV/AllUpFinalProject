@@ -23,6 +23,9 @@ public class Product : BaseEntity
     public Category Category { get; set; } =null!;
     public int CategoryId { get; set; }
 
+    public Brand Brand { get; set; }=null!;
+    public int BrandId { get; set; }
+
     public ICollection<ProductTag> ProductTags { get; set; } = new List<ProductTag>();
     public ICollection<ProductImage> ProductImages { get; set; }=new List<ProductImage>();
 

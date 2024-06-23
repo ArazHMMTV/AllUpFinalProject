@@ -17,7 +17,15 @@ namespace AllUpProjectFinal
 
 
             builder.Services.AddScoped<ITagRepository, TagRepository>();
+            builder.Services.AddScoped<IBrandRepository, BrandRepository>();
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            
+
             builder.Services.AddScoped<ITagService, TagService>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IBrandService, BrandService>();
+
+
 
             builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 

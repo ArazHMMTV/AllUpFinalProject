@@ -1,0 +1,41 @@
+﻿@model CategoryCreateVm
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Create Category</h4>
+
+        <form method="post" class="forms-sample" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" placeholder="Name">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="form-group">
+
+                <select asp-for="ParentId">
+                    <option selected value="@null" >Select Parent(optional)</option>
+                    @foreach (Category category in ViewBag.Categories)
+                    {
+                        <option value="@category.Id">@category.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="ParentId" class="text-danger"></span>
+
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Image"></label>
+                <input asp-for="Image" class="form-control" placeholder="Image">
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+
+
+
+            <button type="submit" class="btn btn-primary me-2">Submit</button>
+            <button class="btn btn-light" asp-action="index">Cancel</button>
+        </form>
+    </div>
+</div>

@@ -4,19 +4,17 @@ namespace Core.Models
 {
     public class Category : BaseEntity
     {
-        public string Name { get; set; }  // computer, phone, headphone, watch
-        public string? ImageUrl { get; set; }
-
-        public bool IsMain { get; set; }
+        public string Name { get; set; } = null!;
+        public string ImageUrl { get; set; }=null!;
 
 
-        public ICollection<Category>? Child {  get; set; }
+
         public Category? Parent { get; set; }
         public int? ParentId { get; set; }
 
-        public ICollection<Product> Products { get; set; }
+        public ICollection<Category>? Children {  get; set; }= new List<Category>();
+        public ICollection<Product>? Products { get; set; }=new List<Product>();
 
-        //public Category? ParentCategory { get; set; }
-        //public int? ParentCategoryId { get; set; }
+     
     }
 }

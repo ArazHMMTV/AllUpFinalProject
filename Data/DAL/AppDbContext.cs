@@ -18,6 +18,7 @@ namespace Data.DAL
         public DbSet<Setting> Settings { get; set; } = null!;
         public DbSet<Testimonial> Testimonials { get; set; } = null!;
         public DbSet<Tag> Tags { get; set; } = null!;
+        public DbSet<Brand> Brands  { get; set; } = null!;
 
     }
 }
