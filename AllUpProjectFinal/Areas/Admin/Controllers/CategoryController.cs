@@ -28,6 +28,7 @@ public class CategoryController : Controller
     public async Task<IActionResult> Create()
     {
         await _service.SendViewBagParentCategories(ViewBag);
+
         return View();
 
     }
@@ -36,7 +37,42 @@ public class CategoryController : Controller
     {
         var result = await _service.CreateAsync(vm, ModelState, ViewBag, _imagePath);
 
-        if(!result)
+        if (!result)
+            return View(vm);
+
+        return RedirectToAction("Index");
+    }
+
+    public async Task<IActionResult> Delete(int id)
+    {
+        var result=await _service.DeleteAsync(id, _imagePath);
+
+        if (!result)
+            return NotFound();
+
+
+        return RedirectToAction("Index");
+    }
+
+
+    public async Task<IActionResult> Update(int id)
+    {
+        var result = await _service.GetUpdatedCategoryAsync(id, ViewBag);
+
+        if (result is null)
+            return NotFound();
+
+        return View(result);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Update(CategoryUpdateVm vm)
+    {
+        var result=await _service.UpdateAsync(vm,ModelState,ViewBag, _imagePath);
+
+        if (result is null)
+            return BadRequest();
+        else if (result is false)
             return View(vm);
 
         return RedirectToAction("Index");

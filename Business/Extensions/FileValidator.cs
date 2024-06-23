@@ -35,4 +35,14 @@ public static class FileValidator
 
         return filename;
     }
+
+    public static void DeleteImage(this string imagePath,string path)
+    {
+        path = Path.Combine(path, imagePath);
+
+        if (File.Exists(path))
+        {
+            File.Delete(path);
+        }
+    }
 }

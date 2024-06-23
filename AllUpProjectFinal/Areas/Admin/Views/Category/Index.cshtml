@@ -17,7 +17,13 @@
                                 #
                             </th>
                             <th>
+                                Image
+                            </th>
+                            <th>
                                 Name
+                            </th>
+                            <th>
+                                Type
                             </th>
                             <th>
                                 Actions
@@ -32,18 +38,34 @@
                                 <td>
                                     @(count++)
                                 </td>
+                                <td>
+                                    <img src="~/assets/images/@Category.ImageUrl"  style="width:60px;height:60px;border-radius:100%"/>
+                                </td>
                                 <td class="py-1">
                                     @Category.Name
                                 </td>
+                                
+                                    @if(Category.ParentId is null)
+                                    {
+                                    <td>Parent</td>
+                                    }
+                                    else
+                                    {
+                                        <td>Child</td>
+                                    }
+                                
                                 <td>
                                     <a asp-action="Detail" asp-route-id="@Category.Id" class="btn btn-primary">
                                         Detail
                                     </a>  <a asp-action="Update" asp-route-id="@Category.Id" class="btn btn-warning">
                                         Update
                                     </a>
-                                    <a asp-action="Delete" asp-route-id="@Category.Id" class="btn btn-danger">
-                                        Delete
-                                    </a>
+                                    @if (Category.Children?.Count == 0 && Category.Products?.Count==0)
+                                    {
+                                        <a asp-action="Delete" asp-route-id="@Category.Id" class="btn btn-danger">
+                                            Delete
+                                        </a>
+                                    }
                                 </td>
 
                             </tr>

@@ -11,7 +11,7 @@ namespace Business.Services.Concretes;
 public class CategoryService : ICategoryService
 {
     private readonly ICategoryRepository _repository;
-   
+
     public CategoryService(ICategoryRepository repository)
     {
         _repository = repository;
@@ -51,7 +51,7 @@ public class CategoryService : ICategoryService
             return false;
         }
 
-        string filename=await vm.Image.CreateImage(imagePath);
+        string filename = await vm.Image.CreateImage(imagePath);
 
         Category category = new()
         {
@@ -67,32 +67,136 @@ public class CategoryService : ICategoryService
         return true;
     }
 
-    public Task<bool> DeleteAsync(int id)
+    public async Task<bool> DeleteAsync(int id, string imagePath)
     {
-        throw new NotImplementedException();
+        var category = await _repository.GetSingleAsync(x => x.Id == id, "Children", "Products");
+
+        if (category is null)
+            return false;
+
+        if (category.Children?.Count > 0 || category.Products?.Count > 0)
+            return false;
+
+        category.ImageUrl.DeleteImage(imagePath);
+
+        _repository.Delete(category);
+        await _repository.SaveAsync();
+
+        return true;
     }
 
     public async Task<List<Category>> GetAllAsync()
     {
-        var categories = await _repository.GetAll().ToListAsync();
+        var categories = await _repository.GetAll("Children", "Products").ToListAsync();
 
         return categories;
     }
 
-    public Task<CategoryUpdateVm?> GetUpdatedCategoryAsync(int id, dynamic ViewBag)
+    public async Task<CategoryUpdateVm?> GetUpdatedCategoryAsync(int id, dynamic ViewBag)
     {
-        throw new NotImplementedException();
+
+        var category = await _repository.GetSingleAsync(x => x.Id == id, "Children", "Products");
+
+        if (category is null)
+            return null;
+
+
+        if (category.Children?.Count == 0 && category.Products?.Count == 0)
+            await SendViewBagParentCategories(ViewBag, id);
+        else
+            ViewBag.Categories = new List<Category>();
+
+        CategoryUpdateVm vm = new()
+        {
+            Id = id,
+            Name = category.Name,
+            ImageUrl = category.ImageUrl,
+            ParentId = category.ParentId
+        };
+
+        return vm;
     }
 
-    public async Task SendViewBagParentCategories(dynamic ViewBag)
+    public async Task SendViewBagParentCategories(dynamic ViewBag, int? blockedId = null)
     {
-        var parentCategories = await _repository.GetFiltered(x => x.ParentId == null).ToListAsync();
-        
-        ViewBag.Categories = parentCategories;    
+        var query = _repository.GetFiltered(x => x.ParentId == null);
+
+        if (blockedId is not null)
+            query = query.Where(x => x.Id != blockedId);
+
+        var parentCategories = await query.ToListAsync();
+
+        ViewBag.Categories = parentCategories;
     }
 
-    public Task<bool?> UpdateAsync(CategoryUpdateVm vm, ModelStateDictionary ModelState)
+    public async Task<bool?> UpdateAsync(CategoryUpdateVm vm, ModelStateDictionary ModelState, dynamic ViewBag, string imagePath)
     {
-        throw new NotImplementedException();
+        var existCategory = await _repository.GetSingleAsync(x => x.Id == vm.Id, "Children", "Parent", "Products");
+
+        if (existCategory is null)
+            return null;
+
+
+        if (existCategory.Children?.Count == 0 && existCategory.Products?.Count == 0)
+            await SendViewBagParentCategories(ViewBag, vm.Id);
+        else
+            ViewBag.Categories = new List<Category>();
+
+        vm.ImageUrl = existCategory.ImageUrl;
+
+        if (!ModelState.IsValid)
+            return false;
+
+        var isExist = await _repository.IsExistAsync(x => x.Name.ToLower() == vm.Name.ToLower() && x.Id != vm.Id);
+
+        if (isExist)
+        {
+            ModelState.AddModelError("Name", "This category is already exist");
+            return false;
+        }
+
+        if (vm.ParentId is not null)
+        {
+            if (existCategory.Children?.Count != 0)
+            {
+                ModelState.AddModelError("", "This is parent category!");
+                return false;
+            }
+            if (existCategory.Products?.Count != 0)
+            {
+                ModelState.AddModelError("", "This category have products");
+                return false;
+            }
+            var parentCategory = await _repository.GetSingleAsync(x => x.Id == vm.ParentId && x.Parent == null && x.Id != vm.Id, "Parent");
+
+            if (parentCategory is null)
+            {
+                ModelState.AddModelError("ParentId", "This category is not found");
+                return false;
+            }
+
+        }
+
+        if (vm.Image is not null)
+        {
+            if (!vm.Image.CheckImage())
+            {
+                ModelState.AddModelError("Image", "Please enter the valid input");
+                return false;
+            }
+
+            string filename = await vm.Image.CreateImage(imagePath);
+            existCategory.ImageUrl.DeleteImage(imagePath);
+            existCategory.ImageUrl = filename;
+        }
+
+        existCategory.Name = vm.Name;
+        existCategory.ParentId = vm.ParentId;
+
+        _repository.Update(existCategory);
+        await _repository.SaveAsync();
+
+        return true;
+
     }
 }
