@@ -31,7 +31,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach (Category Category in Model)
+                        @foreach (Category category in Model)
                         {
 
                             <tr>
@@ -39,13 +39,13 @@
                                     @(count++)
                                 </td>
                                 <td>
-                                    <img src="~/assets/images/@Category.ImageUrl"  style="width:60px;height:60px;border-radius:100%"/>
+                                    <img src="~/assets/images/@category.ImageUrl"  style="width:60px;height:60px;border-radius:100%"/>
                                 </td>
                                 <td class="py-1">
-                                    @Category.Name
+                                    @category.Name
                                 </td>
                                 
-                                    @if(Category.ParentId is null)
+                                    @if(category.ParentId is null)
                                     {
                                     <td>Parent</td>
                                     }
@@ -55,14 +55,14 @@
                                     }
                                 
                                 <td>
-                                    <a asp-action="Detail" asp-route-id="@Category.Id" class="btn btn-primary">
+                                    <a asp-action="Detail" asp-route-id="@category.Id" class="btn btn-primary">
                                         Detail
-                                    </a>  <a asp-action="Update" asp-route-id="@Category.Id" class="btn btn-warning">
+                                    </a>  <a asp-action="Update" asp-route-id="@category.Id" class="btn btn-warning">
                                         Update
                                     </a>
-                                    @if (Category.Children?.Count == 0 && Category.Products?.Count==0)
+                                    @if (category.Children?.Count == 0 && category.Products?.Count==0)
                                     {
-                                        <a asp-action="Delete" asp-route-id="@Category.Id" class="btn btn-danger">
+                                        <a asp-action="Delete" asp-route-id="@category.Id" class="btn btn-danger">
                                             Delete
                                         </a>
                                     }

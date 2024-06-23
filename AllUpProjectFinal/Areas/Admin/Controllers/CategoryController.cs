@@ -77,4 +77,14 @@ public class CategoryController : Controller
 
         return RedirectToAction("Index");
     }
+
+    public async Task<IActionResult> Detail(int id)
+    {
+        var result = await _service.GetByIdAsync(id);
+
+        if(result is null)
+            return NotFound();
+
+        return View(result);
+    }
 }

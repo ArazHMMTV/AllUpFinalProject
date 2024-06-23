@@ -18,8 +18,6 @@ public class Product : BaseEntity
 
     public int Quantity { get; set; } 
 
-
-
     public Category Category { get; set; } =null!;
     public int CategoryId { get; set; }
 

@@ -12,8 +12,8 @@ namespace Core.Models
         public Category? Parent { get; set; }
         public int? ParentId { get; set; }
 
-        public ICollection<Category>? Children {  get; set; }= new List<Category>();
-        public ICollection<Product>? Products { get; set; }=new List<Product>();
+        public ICollection<Category> Children {  get; set; }= new List<Category>();
+        public ICollection<Product> Products { get; set; }=new List<Product>();
 
      
     }

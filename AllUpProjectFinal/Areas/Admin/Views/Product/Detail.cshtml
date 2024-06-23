@@ -1,0 +1,142 @@
+﻿@model Product
+
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+
+        <div class="col-sm-12 col-xl-12">
+            <div class="card">
+                <div style="background-color:#3f64d1;color:white" class="card-header">
+                    @Model.Name
+                </div>
+                <div class="card-body">
+                    <div style="display:flex;flex-direction:column;justify-content:space-between">
+                        <p>
+
+                            MainImage:  <img style="width:100px;height:100px" src="~/assets/images/@Model.ProductImages.FirstOrDefault(x=>x.IsMain)?.Path" />
+                        </p>
+                        <p>
+
+                            Hover Image:  <img style="width:100px;height:100px" src="~/assets/images/@Model.ProductImages.FirstOrDefault(x=>x.IsHover)?.Path" />
+                        </p>
+                        <p>
+
+                            Additional Images: @foreach (var image in Model.ProductImages.Where(x => !x.IsMain && !x.IsHover))
+                            {
+                                <img style="width:100px;height:100px" src="~/assets/images/@image.Path" />
+                            }
+                        </p>
+
+                    </div>
+                    <br />
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Key</th>
+                                <th scope="col">Value</th>
+                               
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>Category</td>
+                                <td>@Model.Category.Name</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>Brand</td>
+                                <td>@Model.Brand.Name</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>Tags</td>
+                                <td>
+                                    @foreach (var item in Model.ProductTags)
+                                    {
+                                        <span>@item.Tag.Name ,</span>
+                                    }
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Long Description
+                                </td>
+                                <td>
+                                    @Model.LongDescription
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Short Description
+                                </td>
+                                <td>
+                                    @Model.ShortDescription
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    Discount
+                                </td>
+                                <td>
+                                    @Model.Discount
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Price
+                                </td>
+                                <td>
+                                    @Model.Price
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    Product Code
+                                </td>
+                                <td>
+                                    @Model.ProductCode
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    Rating
+                                </td>
+                                <td>
+                                    @Model.Rating
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Quantity
+                                </td>
+                                <td>
+                                    @Model.Quantity
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+
+
+
+                    <a asp-action="Index" class="btn btn-primary">Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

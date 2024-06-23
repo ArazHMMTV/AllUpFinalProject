@@ -4,6 +4,7 @@ using Core.Models;
 using Core.RepositoryAbstract;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace Business.Services.Concretes;
 
@@ -79,6 +80,10 @@ public class BrandService : IBrandService
         return vm;
     }
 
+    public async Task<bool> IsExistAsync(Expression<Func<Brand, bool>> expression)
+    {
+        return await _repository.IsExistAsync(expression);
+    }
 
     public async Task<bool?> UpdateAsync(BrandUpdateVm vm, ModelStateDictionary ModelState)
     {

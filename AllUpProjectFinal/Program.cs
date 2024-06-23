@@ -19,11 +19,13 @@ namespace AllUpProjectFinal
             builder.Services.AddScoped<ITagRepository, TagRepository>();
             builder.Services.AddScoped<IBrandRepository, BrandRepository>();
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<IProductRepository,ProductRepository>();
             
 
             builder.Services.AddScoped<ITagService, TagService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<IBrandService, BrandService>();
+            builder.Services.AddScoped<IProductService, ProductService>();
 
 
 

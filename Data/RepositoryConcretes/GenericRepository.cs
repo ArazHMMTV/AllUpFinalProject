@@ -55,10 +55,14 @@ namespace Data.RepositoryConcretes
             return query;
         }
 
-        public async Task<bool> IsExistAsync(Expression<Func<T, bool>> expression)
+        public async Task<bool> IsExistAsync(Expression<Func<T, bool>> expression,params string[] includes)
         {
 
-            return await _context.Set<T>().AnyAsync(expression);
+            var query=_context.Set<T>().AsQueryable();    
+            foreach(string include in includes)
+                query = query.Include(include);
+
+            return await query.AnyAsync(expression);
         }
 
         public async Task<int> SaveAsync()

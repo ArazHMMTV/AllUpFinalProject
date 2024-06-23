@@ -4,6 +4,7 @@ using Core.Models;
 using Core.RepositoryAbstract;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace Business.Services.Concretes;
 
@@ -73,6 +74,11 @@ public class TagService : ITagService
             Name = tag.Name,
         };
         return vm;
+    }
+
+    public async Task<bool> IsExistAsync(Expression<Func<Tag, bool>> expression)
+    {
+       return await _repository.IsExistAsync(expression);
     }
 
     public async Task<bool?> UpdateAsync(TagUpdateVm vm, ModelStateDictionary ModelState)

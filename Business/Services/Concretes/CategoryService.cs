@@ -5,6 +5,7 @@ using Core.Models;
 using Core.RepositoryAbstract;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace Business.Services.Concretes;
 
@@ -92,6 +93,13 @@ public class CategoryService : ICategoryService
         return categories;
     }
 
+    public async Task<Category?> GetByIdAsync(int id)
+    {
+        var category = await _repository.GetSingleAsync(x => x.Id == id, "Parent", "Children", "Products.ProductImages");
+
+        return category;
+    }
+
     public async Task<CategoryUpdateVm?> GetUpdatedCategoryAsync(int id, dynamic ViewBag)
     {
 
@@ -115,6 +123,11 @@ public class CategoryService : ICategoryService
         };
 
         return vm;
+    }
+
+    public async Task<bool> IsExistAsync(Expression<Func<Category, bool>> expression)
+    {
+        return await _repository.IsExistAsync(expression,"Children","Products");
     }
 
     public async Task SendViewBagParentCategories(dynamic ViewBag, int? blockedId = null)
@@ -167,7 +180,7 @@ public class CategoryService : ICategoryService
                 ModelState.AddModelError("", "This category have products");
                 return false;
             }
-            var parentCategory = await _repository.GetSingleAsync(x => x.Id == vm.ParentId && x.Parent == null && x.Id != vm.Id, "Parent");
+            var parentCategory = await _repository.GetSingleAsync(x => x.Id == vm.ParentId && x.Parent == null && x.Id != vm.Id && x.Products.Count==0 ,"Parent","Products");
 
             if (parentCategory is null)
             {
