@@ -258,13 +258,11 @@ C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\All
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.AssemblyInfoInputs.cache
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.AssemblyInfo.cs
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.csproj.CoreCompileInputs.cache
+C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.RazorAssemblyInfo.cache
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.RazorAssemblyInfo.cs
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.sourcelink.json
-C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.dll
-C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\refint\AllUpProjectFinal.dll
-C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.pdb
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\appsettings.json
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\AllUpProjectFinal.staticwebassets.runtime.json
@@ -291,6 +289,7 @@ C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Mic
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -299,6 +298,7 @@ C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Mic
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -507,6 +507,8 @@ C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\sco
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\scopedcss\bundle\AllUpProjectFinal.styles.css
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\scopedcss\projectbundle\AllUpProjectFinal.bundle.scp.css
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpPro.BEE668A2.Up2Date
+C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.dll
+C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\refint\AllUpProjectFinal.dll
+C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.pdb
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.genruntimeconfig.cache
 C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\ref\AllUpProjectFinal.dll
-C:\Users\Asiman\Desktop\AllUpFinalProject\AllUpProjectFinal\obj\Debug\net6.0\AllUpProjectFinal.MvcApplicationPartsAssemblyInfo.cs
