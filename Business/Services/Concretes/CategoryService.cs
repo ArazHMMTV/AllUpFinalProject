@@ -52,7 +52,7 @@ public class CategoryService : ICategoryService
             return false;
         }
 
-        string filename = await vm.Image.CreateImage(imagePath);
+        string filename = await vm.Image.CreateImageAsync(imagePath);
 
         Category category = new()
         {
@@ -198,7 +198,7 @@ public class CategoryService : ICategoryService
                 return false;
             }
 
-            string filename = await vm.Image.CreateImage(imagePath);
+            string filename = await vm.Image.CreateImageAsync(imagePath);
             existCategory.ImageUrl.DeleteImage(imagePath);
             existCategory.ImageUrl = filename;
         }

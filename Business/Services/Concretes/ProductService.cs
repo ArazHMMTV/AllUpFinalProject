@@ -108,16 +108,16 @@ public class ProductService : IProductService
         product.ProductImages = new List<ProductImage>();
 
 
-        string mainImagePath = await vm.MainImage.CreateImage(imagePath);
+        string mainImagePath = await vm.MainImage.CreateImageAsync(imagePath);
         product.ProductImages.Add(new() { IsMain = true, Path = mainImagePath, Product = product });
 
 
-        string hoverImagePath = await vm.HoverImage.CreateImage(imagePath);
+        string hoverImagePath = await vm.HoverImage.CreateImageAsync(imagePath);
         product.ProductImages.Add(new() { IsHover = true, Path = hoverImagePath, Product = product });
 
         foreach (var item in vm.Images)
         {
-            string imgPath = await item.CreateImage(imagePath);
+            string imgPath = await item.CreateImageAsync(imagePath);
             product.ProductImages.Add(new() { Path = imgPath, Product = product });
         }
 
@@ -325,14 +325,14 @@ public class ProductService : IProductService
         if (vm.MainImage is not null)
         {
             existProduct.ProductImages.FirstOrDefault(x => x.IsMain)?.Path.DeleteImage(imagePath);
-            existProduct.ProductImages.FirstOrDefault(x => x.IsMain).Path = await vm.MainImage.CreateImage(imagePath);
+            existProduct.ProductImages.FirstOrDefault(x => x.IsMain).Path = await vm.MainImage.CreateImageAsync(imagePath);
         }
 
 
         if (vm.HoverImage is not null)
         {
             existProduct.ProductImages.FirstOrDefault(x => x.IsHover)?.Path.DeleteImage(imagePath);
-            existProduct.ProductImages.FirstOrDefault(x => x.IsHover).Path = await vm.HoverImage.CreateImage(imagePath);
+            existProduct.ProductImages.FirstOrDefault(x => x.IsHover).Path = await vm.HoverImage.CreateImageAsync(imagePath);
         }
 
 
@@ -363,7 +363,7 @@ public class ProductService : IProductService
 
         foreach (var image in vm.Images)
         {
-            existProduct.ProductImages.Add(new() { Path = await image.CreateImage(imagePath), Product = existProduct });
+            existProduct.ProductImages.Add(new() { Path = await image.CreateImageAsync(imagePath), Product = existProduct });
         }
 
         #endregion

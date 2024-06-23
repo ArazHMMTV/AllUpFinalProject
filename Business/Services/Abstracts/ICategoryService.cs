@@ -16,7 +16,5 @@ public interface ICategoryService
     public Task<bool?> UpdateAsync(CategoryUpdateVm vm, ModelStateDictionary ModelState,dynamic ViewBag,string imagePath);
     public Task<Category?> GetByIdAsync(int id);
     public Task<bool> IsExistAsync(Expression<Func<Category,bool>> expression);
-    
-
-
+  
 }

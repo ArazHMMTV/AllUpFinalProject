@@ -22,7 +22,7 @@ public static class FileValidator
 
     }
 
-    public static async Task<string> CreateImage(this IFormFile file, string path)
+    public static async Task<string> CreateImageAsync(this IFormFile file, string path)
     {
         string filename = Guid.NewGuid().ToString() + file.FileName.Substring(file.FileName.LastIndexOf('.'));
 

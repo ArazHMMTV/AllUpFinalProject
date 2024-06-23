@@ -1,8 +1,8 @@
 ﻿using Core.Models;
 
-namespace Core.RepositoryAbstract
+namespace Core.RepositoryAbstract;
+
+public interface ITestimonialRepository : IGenericRepository<Testimonial>
 {
-    public interface ITestimonialRepository : IGenericRepository<Testimonial>
-    {
-    }
 }
+
