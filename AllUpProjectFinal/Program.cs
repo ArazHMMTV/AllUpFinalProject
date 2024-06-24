@@ -22,6 +22,7 @@ namespace AllUpProjectFinal
             builder.Services.AddScoped<IProductRepository,ProductRepository>();
             builder.Services.AddScoped<IBlogCategoryRepository,BlogCategoryRepository>();
             builder.Services.AddScoped<IBlogRepository,BlogRepository>();
+            builder.Services.AddScoped<ISettingRepository,SettingRepository>();
             
 
             builder.Services.AddScoped<ITagService, TagService>();
@@ -30,6 +31,7 @@ namespace AllUpProjectFinal
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<IBlogService, BlogService>();
             builder.Services.AddScoped<IBlogCategoryService, BlogCategoryService>();
+            builder.Services.AddScoped<ISettingService, SettingService>();
 
 
 
