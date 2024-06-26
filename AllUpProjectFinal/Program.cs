@@ -1,8 +1,11 @@
 using Business.Services.Abstracts;
 using Business.Services.Concretes;
+using Core.Models;
 using Core.RepositoryAbstract;
 using Data.DAL;
 using Data.RepositoryConcretes;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
 namespace AllUpProjectFinal
@@ -19,11 +22,11 @@ namespace AllUpProjectFinal
             builder.Services.AddScoped<ITagRepository, TagRepository>();
             builder.Services.AddScoped<IBrandRepository, BrandRepository>();
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-            builder.Services.AddScoped<IProductRepository,ProductRepository>();
-            builder.Services.AddScoped<IBlogCategoryRepository,BlogCategoryRepository>();
-            builder.Services.AddScoped<IBlogRepository,BlogRepository>();
-            builder.Services.AddScoped<ISettingRepository,SettingRepository>();
-            
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddScoped<IBlogCategoryRepository, BlogCategoryRepository>();
+            builder.Services.AddScoped<IBlogRepository, BlogRepository>();
+            builder.Services.AddScoped<ISettingRepository, SettingRepository>();
+
 
             builder.Services.AddScoped<ITagService, TagService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
@@ -32,11 +35,30 @@ namespace AllUpProjectFinal
             builder.Services.AddScoped<IBlogService, BlogService>();
             builder.Services.AddScoped<IBlogCategoryService, BlogCategoryService>();
             builder.Services.AddScoped<ISettingService, SettingService>();
+            builder.Services.AddScoped<IAccountService, AccountService>();
+            builder.Services.AddScoped<IEmailService,EmailService>();
+
+            builder.Services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
 
 
 
+            builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
-            builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+            builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+            {
+                opt.User.RequireUniqueEmail = true;
+                opt.Password.RequiredLength = 6;
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequireDigit = false;
+                opt.Password.RequireUppercase = false;
+                opt.Password.RequireLowercase = false;
+
+                opt.SignIn.RequireConfirmedEmail = true;
+                opt.Lockout.AllowedForNewUsers = false;
+                opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+                opt.Lockout.MaxFailedAccessAttempts = 3;
+
+            }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 
             var app = builder.Build();
 

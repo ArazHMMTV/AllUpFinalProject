@@ -6,6 +6,7 @@ namespace AllUpProjectFinal.Controllers
     {
         public IActionResult Index()
         {
+           
             return View();
         }
     }
