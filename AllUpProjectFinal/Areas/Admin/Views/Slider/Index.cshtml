@@ -1,0 +1,74 @@
+﻿@model List<Slider>
+@{
+    int count = 1;
+}
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Sliders</h4>
+            <p class="card-description">
+                <a asp-action="Create" class="btn btn-success text-white">Create</a>
+            </p>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                #
+                            </th>
+                            <th>
+                                Image
+                            </th>
+                            <th>
+                                Title
+                            </th>
+                            <th>
+                                SubTitle
+                            </th>
+                            <th>
+                                Description
+                            </th>
+                            <th>
+                                Actions
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Slider Slider in Model)
+                        {
+
+                            <tr>
+                                <td>
+                                    @(count++)
+                                </td>
+                                <td>
+                                    <img src="~/assets/images/@Slider.ImagePath" style="width:60px;height:60px;border-radius:100%" />
+                                </td>
+                                <td class="py-1">
+                                    @Slider.Title
+                                </td>
+
+                                <td>@Slider.Subtitle</td>
+                                <td>@Slider.Description</td>
+
+
+                                <td>
+                                    <a asp-action="Update" asp-route-id="@Slider.Id" class="btn btn-warning">
+                                        Update
+                                    </a>
+
+                                    <a asp-action="Delete" asp-route-id="@Slider.Id" class="btn btn-danger">
+                                        Delete
+                                    </a>
+
+                                </td>
+
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

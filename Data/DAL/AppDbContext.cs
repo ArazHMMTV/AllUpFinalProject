@@ -22,6 +22,8 @@ namespace Data.DAL
         public DbSet<Brand> Brands { get; set; } = null!;
         public DbSet<Blog> Blogs { get; set; } = null!;
         public DbSet<BlogCategory> BlogCategories { get; set; } = null!;
+        public DbSet<Slider> Sliders { get; set; } = null!;
+        public DbSet<Service> Services { get; set; } = null!;
 
     }
 }

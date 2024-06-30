@@ -8,6 +8,7 @@ namespace Business.Services.Abstracts;
 public interface ICategoryService
 {
     public Task<List<Category>> GetAllAsync();
+    public Task<List<Category>> GetAllParentAsync();
     public Task SendViewBagParentCategories(dynamic ViewBag,int? blockedId=null);
     public Task<bool> CreateAsync(CategoryCreateVm vm, ModelStateDictionary ModelState,dynamic ViewBag,string imagePath);
 

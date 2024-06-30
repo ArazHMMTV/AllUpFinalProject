@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zJeGnXzJlzTHC8N6duOfANOXdgseN+9hjMpOoz608EM=",
+  "Hash": "EoGnLJtsOUz/5vU55WV61XZsupp6/mzupavkJB8wv4g=",
   "Source": "AllUpProjectFinal",
   "BasePath": "_content/AllUpProjectFinal",
   "Mode": "Default",
@@ -36117,6 +36117,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\32779210-9a7a-44f5-94fd-29030bcd2941.jpg"
     },
     {
+      "Identity": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\wwwroot\\assets\\images\\5a7e9741-90d1-41c9-9808-63a55ad3a9cb.jpg",
+      "SourceId": "AllUpProjectFinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\wwwroot\\",
+      "BasePath": "_content/AllUpProjectFinal",
+      "RelativePath": "assets/images/5a7e9741-90d1-41c9-9808-63a55ad3a9cb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\5a7e9741-90d1-41c9-9808-63a55ad3a9cb.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\wwwroot\\assets\\images\\5e846718-028f-4131-bf49-3ccce01f2d00.jpg",
       "SourceId": "AllUpProjectFinal",
       "SourceType": "Discovered",
@@ -36932,6 +36951,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\brand\\brand-6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\wwwroot\\assets\\images\\c27b62b3-19db-46f4-843b-dc69d4bba3de.jpg",
+      "SourceId": "AllUpProjectFinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\wwwroot\\",
+      "BasePath": "_content/AllUpProjectFinal",
+      "RelativePath": "assets/images/c27b62b3-19db-46f4-843b-dc69d4bba3de.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\c27b62b3-19db-46f4-843b-dc69d4bba3de.jpg"
     },
     {
       "Identity": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\wwwroot\\assets\\images\\category-1.jpg",

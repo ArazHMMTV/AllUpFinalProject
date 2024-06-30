@@ -93,6 +93,13 @@ public class CategoryService : ICategoryService
         return categories;
     }
 
+    public async Task<List<Category>> GetAllParentAsync()
+    {
+        var categories = await _repository.GetFiltered(x => x.ParentId == null, "Children", "Products").ToListAsync();
+
+        return categories;
+    }
+
     public async Task<Category?> GetByIdAsync(int id)
     {
         var category = await _repository.GetSingleAsync(x => x.Id == id, "Parent", "Children", "Products.ProductImages");
@@ -127,7 +134,7 @@ public class CategoryService : ICategoryService
 
     public async Task<bool> IsExistAsync(Expression<Func<Category, bool>> expression)
     {
-        return await _repository.IsExistAsync(expression,"Children","Products");
+        return await _repository.IsExistAsync(expression, "Children", "Products");
     }
 
     public async Task SendViewBagParentCategories(dynamic ViewBag, int? blockedId = null)
@@ -180,7 +187,7 @@ public class CategoryService : ICategoryService
                 ModelState.AddModelError("", "This category have products");
                 return false;
             }
-            var parentCategory = await _repository.GetSingleAsync(x => x.Id == vm.ParentId && x.Parent == null && x.Id != vm.Id && x.Products.Count==0 ,"Parent","Products");
+            var parentCategory = await _repository.GetSingleAsync(x => x.Id == vm.ParentId && x.Parent == null && x.Id != vm.Id && x.Products.Count == 0, "Parent", "Products");
 
             if (parentCategory is null)
             {

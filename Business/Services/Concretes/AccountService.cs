@@ -1,5 +1,6 @@
 ﻿using Business.Services.Abstracts;
 using Business.ViewModels;
+using Core.Enums;
 using Core.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -7,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Routing;
-using System.Security.Policy;
+using Microsoft.EntityFrameworkCore;
 
 namespace Business.Services.Concretes;
 
@@ -93,6 +94,7 @@ public class AccountService : IAccountService
         }
 
 
+        await _userManager.AddToRoleAsync(user, IdentityRoles.Member.ToString());
 
         var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
         var link = _urlHelper.Action("VerifyEmail", "Account", new { email = user.Email, token = token }, _contextAccessor.HttpContext.Request.Scheme);
@@ -108,14 +110,14 @@ public class AccountService : IAccountService
     <style>
         body {{
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #007bff; /* Blue base color */
             margin: 0;
             padding: 0;
         }}
         .container {{
             max-width: 600px;
             margin: 50px auto;
-            background-color: rgb(226, 198, 198);
+            background-color: #ffffff; /* White base color */
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -127,13 +129,18 @@ public class AccountService : IAccountService
         .confirmation-link {{
             display: inline-block;
             padding: 10px 20px;
-            background-color: #007bff;
+            background-color: #0056b3; /* Darker blue for link */
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
         }}
         .confirmation-link:hover {{
-            background-color: #0056b3;
+            background-color: #003d7a; /* Even darker blue on hover */
+        }}
+
+        a{{
+            font-style: none;
+
         }}
     </style>
 </head>
@@ -143,14 +150,47 @@ public class AccountService : IAccountService
         <p class=""message"">Please click the following link to confirm your email address and complete your registration:</p>
         <a href=""{link}"" class=""confirmation-link"">Confirm Email</a>
         <p class=""message"">If you did not request this, please ignore this email.</p>
-        <p class=""message"">Regards,<br>Your Website Team</p>
+        <p class=""message"">Regards,<br>All Up Team</p>
     </div>
 </body>
 </html>";
+
 
         _emailService.SendEmail(new(body: emailBody, subject: "Email Verification", to: vm.Email));
 
         return true;
     }
 
+
+
+
+    public async Task<bool> VerifyEmail(string? email, string? token)
+    {
+        if (token == null || email == null)
+            return false;
+
+        var user = await _userManager.Users.FirstOrDefaultAsync(e => e.Email == email);
+
+        if (user is null)
+            return false;
+
+        var verify = await _userManager.ConfirmEmailAsync(user, token);
+        if (verify.Succeeded)
+        {
+            user.EmailConfirmed = true;
+            await _userManager.UpdateAsync(user);
+            await _signInManager.SignInAsync(user, false);
+            return true;
+        }
+        return false;
+    }
+
+    public async Task CreateRoles()
+    {
+
+        foreach (var role in Enum.GetNames(typeof(IdentityRoles)))
+        {
+            await _roleManager.CreateAsync(new() { Name = role });
+        }
+    }
 }
