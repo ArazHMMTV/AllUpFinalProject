@@ -1,4 +1,7 @@
-﻿
+﻿@inject ILayoutService _layoutService;
+@{
+    var settings = await _layoutService.GetSettingsAsync();
+}
 
     <!--====== About Part Start ======-->
 
@@ -12,8 +15,8 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="about-content mt-30">
-                        <h2 class="title">Welcome to Allup</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum commodi obcaecati soluta minima rem error nihil. Deleniti quis maxime tempore optio enim, sapiente consectetur? Sed accusantium voluptatem rerum nisi quas, ipsum cupiditate. Autem quis possimus delectus pariatur corrupti facilis ex nobis voluptatem totam provident debitis, obcaecati exercitationem praesentium saepe hic. <br> <br> Sint voluptatum beatae necessitatibus quos mollitia vero, optio asperiores aut tempora iusto eum rerum, possimus, minus quidem ut saepe laboriosam. Praesentium aperiam accusantium minus repellendus accusamus neque iusto pariatur laudantium provident quod recusandae exercitationem natus dignissimos, molestias quibusdam doloremque eaque fugit molestiae modi quam unde. Error est dolor facere.</p>
+                    <h2 class="title">@settings["AboutTitle"]</h2>
+                    <p>@settings["AboutDescription"]</p>
                     </div>
                 </div>
             </div> <!-- row -->

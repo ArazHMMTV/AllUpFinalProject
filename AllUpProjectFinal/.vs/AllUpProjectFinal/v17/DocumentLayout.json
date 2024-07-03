@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\concretes\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\abstracts\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\concretes\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\viewmodels\\pageviewmodels\\contactvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -17,10 +45,73 @@
       "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\abstracts\\ilayoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\abstracts\\iblogcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\concretes\\blogcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\concretes\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\viewmodels\\pageviewmodels\\blogvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\abstracts\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\viewmodels\\commonviewmodels\\searchvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CFE888-B592-46FF-9030-2FC7C6548616}|..\\Data\\Data.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\data\\migrations\\20240626183807_addedslidersandservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0CFE888-B592-46FF-9030-2FC7C6548616}|..\\Data\\Data.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -32,10 +123,6 @@
       "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\abstracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -44,20 +131,8 @@
       "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\views\\slider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\views\\slider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -95,16 +170,10 @@
       "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\enums\\identityroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\concretes\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\viewmodels\\tagviewmodels\\tagcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\concretes\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\abstracts\\isliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -131,10 +200,6 @@
       "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\abstracts\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -155,13 +220,6 @@
       "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\abstracts\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\concretes\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -180,16 +238,8 @@
       "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:allupprojectfinal.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\views\\blog\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -264,20 +314,11 @@
       "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\abstracts\\iblogcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\views\\blogcategory\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\views\\blogcategory\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\concretes\\blogcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\viewmodels\\blogcategoryviewmodels\\blogcategorycreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\repositoryabstract\\itestimonialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -287,9 +328,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -317,9 +355,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\allupprojectfinal\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9217A711-45DE-4500-9019-9BD9A06E18C5}|AllUpProjectFinal.csproj|solutionrelative:areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BACB851-2646-41E5-95DE-54F78E16A2D5}|..\\Business\\Business.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\business\\services\\abstracts\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7ADB4D3A-9257-4301-B611-2EA22FC4789C}|..\\Core\\Core.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -429,9 +464,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0CFE888-B592-46FF-9030-2FC7C6548616}|..\\Data\\Data.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\data\\migrations\\20240626123937_addedidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0CFE888-B592-46FF-9030-2FC7C6548616}|..\\Data\\Data.csproj|c:\\users\\asiman\\desktop\\allupfinalproject\\data\\migrations\\20240626183807_addedslidersandservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -441,7 +473,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -453,26 +485,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SearchVm.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\CommonViewModels\\SearchVm.cs",
-              "RelativeDocumentMoniker": "..\\Business\\ViewModels\\CommonViewModels\\SearchVm.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\CommonViewModels\\SearchVm.cs",
-              "RelativeToolTip": "..\\Business\\ViewModels\\CommonViewModels\\SearchVm.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "DocumentIndex": 0,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\ContactService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\ContactService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\ContactService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Concretes\\ContactService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T13:15:07.491Z",
+              "WhenOpened": "2024-07-03T16:56:24.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "IContactService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IContactService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\IContactService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IContactService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Abstracts\\IContactService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T16:55:45.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactVm.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\PageViewModels\\ContactVm.cs",
+              "RelativeDocumentMoniker": "..\\Business\\ViewModels\\PageViewModels\\ContactVm.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\PageViewModels\\ContactVm.cs",
+              "RelativeToolTip": "..\\Business\\ViewModels\\PageViewModels\\ContactVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T16:47:59.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAIwJIAAAA7AAAA",
+              "ViewState": "AQIAAFIDAAAAAAAAAIAwwIcDAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-26T11:51:00.66Z",
               "EditorCaption": ""
@@ -480,353 +538,280 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\CategoryService.cs",
-              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\CategoryService.cs",
-              "RelativeToolTip": "..\\Business\\Services\\Concretes\\CategoryService.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAgwF8AAAAQAAAA",
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "Controllers\\AboutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T12:19:02.563Z",
+              "WhenOpened": "2024-06-19T08:54:09.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\ICategoryService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\ICategoryService.cs",
-              "RelativeToolTip": "..\\Business\\Services\\Abstracts\\ICategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T12:17:21.838Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "Views\\About\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T12:06:14.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LayoutService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\LayoutService.cs",
-              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\LayoutService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\LayoutService.cs",
-              "RelativeToolTip": "..\\Business\\Services\\Concretes\\LayoutService.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCkAAAAYAAAA",
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T12:37:12.305Z",
+              "WhenOpened": "2024-06-19T08:54:12.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Core.csproj",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Core.csproj",
-              "RelativeDocumentMoniker": "..\\Core\\Core.csproj",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Core.csproj",
-              "RelativeToolTip": "..\\Core\\Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-26T12:20:09.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ILayoutService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\ILayoutService.cs",
-              "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\ILayoutService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\ILayoutService.cs",
-              "RelativeToolTip": "..\\Business\\Services\\Abstracts\\ILayoutService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T12:36:55.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:54:14.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T13:50:43.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T15:19:05.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Data.csproj",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Data.csproj",
-              "RelativeDocumentMoniker": "..\\Data\\Data.csproj",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Data.csproj",
-              "RelativeToolTip": "..\\Data\\Data.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-26T12:38:31.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T16:16:32.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAwCkAAABAAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCoAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T15:33:19.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\SliderController.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\SliderController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAD4vz8AAAAOAAAA",
+              "DocumentIndex": 10,
+              "Title": "LayoutService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\LayoutService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\LayoutService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\LayoutService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Concretes\\LayoutService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T10:25:45.696Z",
+              "WhenOpened": "2024-06-30T12:37:12.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slider\\Update.cshtml",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Slider\\Update.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T12:45:20.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAArAAAA",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACQAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T12:39:41.462Z",
+              "WhenOpened": "2024-06-26T12:06:28.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slider\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Slider\\Create.cshtml",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAIwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T12:41:49.417Z",
+              "DocumentIndex": 4,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\EmailService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\EmailService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Concretes\\EmailService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:40:56.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ILayoutService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\ILayoutService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\ILayoutService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\ILayoutService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Abstracts\\ILayoutService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:36:55.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Controllers\\ShopController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T13:20:53.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "BlogCategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\BlogCategoryController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\BlogCategoryController.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\BlogCategoryController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\BlogCategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAApAAAA",
+              "Title": "BlogVm.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\PageViewModels\\BlogVm.cs",
+              "RelativeDocumentMoniker": "..\\Business\\ViewModels\\PageViewModels\\BlogVm.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\PageViewModels\\BlogVm.cs",
+              "RelativeToolTip": "..\\Business\\ViewModels\\PageViewModels\\BlogVm.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T19:07:33.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T07:44:57.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SliderService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\SliderService.cs",
-              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\SliderService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\SliderService.cs",
-              "RelativeToolTip": "..\\Business\\Services\\Concretes\\SliderService.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAswAsAAAAdAAAA",
+              "DocumentIndex": 16,
+              "Title": "BlogCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\BlogCategoryService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\BlogCategoryService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\BlogCategoryService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Concretes\\BlogCategoryService.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAhwDEAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T19:53:36.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T18:52:52.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "HomeVm.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\PageViewModels\\HomeVm.cs",
-              "RelativeDocumentMoniker": "..\\Business\\ViewModels\\PageViewModels\\HomeVm.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\PageViewModels\\HomeVm.cs",
-              "RelativeToolTip": "..\\Business\\ViewModels\\PageViewModels\\HomeVm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "DocumentIndex": 15,
+              "Title": "IBlogCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IBlogCategoryService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\IBlogCategoryService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IBlogCategoryService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Abstracts\\IBlogCategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T12:38:10.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAADQAAAAAAAAAAAAIwE4AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T13:01:33.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T18:50:00.096Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwCgAAAAGAAAA",
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Shop\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Shop\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Detail.cshtml",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGsAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T13:02:24.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T07:23:19.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CompanyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\CompanyInfo.cs",
-              "RelativeDocumentMoniker": "..\\Core\\Models\\CompanyInfo.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\CompanyInfo.cs",
-              "RelativeToolTip": "..\\Core\\Models\\CompanyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "DocumentIndex": 13,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "Controllers\\BlogController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:55:21.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T07:46:17.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IdentityRoles.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Enums\\IdentityRoles.cs",
-              "RelativeDocumentMoniker": "..\\Core\\Enums\\IdentityRoles.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Enums\\IdentityRoles.cs",
-              "RelativeToolTip": "..\\Core\\Enums\\IdentityRoles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Blog\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blog\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Blog\\Index.cshtml",
+              "RelativeToolTip": "Views\\Blog\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T07:49:55.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IProductService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IProductService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Abstracts\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T18:10:58.794Z"
+              "WhenOpened": "2024-06-23T15:31:25.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 18,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\ProductService.cs",
               "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\ProductService.cs",
               "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\ProductService.cs",
               "RelativeToolTip": "..\\Business\\Services\\Concretes\\ProductService.cs",
-              "ViewState": "AQIAAOsAAAAAAAAAAADwv94AAAA6AAAA",
+              "ViewState": "AQIAAEIBAAAAAAAAAAAjwIEBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:32:07.734Z"
+              "WhenOpened": "2024-06-23T15:32:07.734Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "TagCreateVm.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\TagViewModels\\TagCreateVm.cs",
-              "RelativeDocumentMoniker": "..\\Business\\ViewModels\\TagViewModels\\TagCreateVm.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\TagViewModels\\TagCreateVm.cs",
-              "RelativeToolTip": "..\\Business\\ViewModels\\TagViewModels\\TagCreateVm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "DocumentIndex": 20,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Product.cs",
+              "RelativeToolTip": "..\\Core\\Models\\Product.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvxoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:03:33.182Z"
+              "WhenOpened": "2024-06-23T18:46:43.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "TagService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\TagService.cs",
-              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\TagService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\TagService.cs",
-              "RelativeToolTip": "..\\Business\\Services\\Concretes\\TagService.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwBMAAAAzAAAA",
+              "DocumentIndex": 21,
+              "Title": "ProductTag.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\ProductTag.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\ProductTag.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\ProductTag.cs",
+              "RelativeToolTip": "..\\Core\\Models\\ProductTag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:05:23.833Z"
+              "WhenOpened": "2024-06-19T15:50:31.792Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "BlogCategory.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\BlogCategory.cs",
-              "RelativeDocumentMoniker": "..\\Core\\Models\\BlogCategory.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\BlogCategory.cs",
-              "RelativeToolTip": "..\\Core\\Models\\BlogCategory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAAAAAA",
+              "Title": "SearchVm.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\CommonViewModels\\SearchVm.cs",
+              "RelativeDocumentMoniker": "..\\Business\\ViewModels\\CommonViewModels\\SearchVm.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\CommonViewModels\\SearchVm.cs",
+              "RelativeToolTip": "..\\Business\\ViewModels\\CommonViewModels\\SearchVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:42:24.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T13:15:07.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAwA8AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T11:46:41.972Z",
-              "EditorCaption": ""
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T13:23:47.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 26,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T13:50:43.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Business.csproj",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Business.csproj",
               "RelativeDocumentMoniker": "..\\Business\\Business.csproj",
@@ -834,36 +819,35 @@
               "RelativeToolTip": "..\\Business\\Business.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-23T11:26:35.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T11:26:35.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\DAL\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Data\\DAL\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\DAL\\AppDbContext.cs",
-              "RelativeToolTip": "..\\Data\\DAL\\AppDbContext.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBkAAAAmAAAA",
+              "DocumentIndex": 27,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\SliderController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAD4vz8AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T12:28:41.871Z"
+              "WhenOpened": "2024-06-27T10:25:45.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\AccountService.cs",
-              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\AccountService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\AccountService.cs",
-              "RelativeToolTip": "..\\Business\\Services\\Concretes\\AccountService.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAkwKYAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T12:46:30.405Z"
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T12:39:41.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 29,
               "Title": "20240626183807_addedSlidersAndServices.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Migrations\\20240626183807_addedSlidersAndServices.cs",
               "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240626183807_addedSlidersAndServices.cs",
@@ -875,7 +859,271 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Core.csproj",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Core.csproj",
+              "RelativeDocumentMoniker": "..\\Core\\Core.csproj",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Core.csproj",
+              "RelativeToolTip": "..\\Core\\Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-26T12:20:09.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\ICategoryService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Abstracts\\ICategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T12:17:21.838Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 33,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\CategoryService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\CategoryService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Concretes\\CategoryService.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAgwF8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T12:19:02.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:54:14.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T15:19:05.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Data.csproj",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Data.csproj",
+              "RelativeDocumentMoniker": "..\\Data\\Data.csproj",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Data.csproj",
+              "RelativeToolTip": "..\\Data\\Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-26T12:38:31.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T16:16:32.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T12:45:20.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T12:41:49.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BlogCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\BlogCategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\BlogCategoryController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\BlogCategoryController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\BlogCategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T19:07:33.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SliderService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\SliderService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\SliderService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\SliderService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Concretes\\SliderService.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAswAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T19:53:36.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HomeVm.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\PageViewModels\\HomeVm.cs",
+              "RelativeDocumentMoniker": "..\\Business\\ViewModels\\PageViewModels\\HomeVm.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\PageViewModels\\HomeVm.cs",
+              "RelativeToolTip": "..\\Business\\ViewModels\\PageViewModels\\HomeVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:38:10.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAADQAAAAAAAAAAAAIwE4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T13:01:33.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwCgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T13:02:24.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CompanyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\CompanyInfo.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\CompanyInfo.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\CompanyInfo.cs",
+              "RelativeToolTip": "..\\Core\\Models\\CompanyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:55:21.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IdentityRoles.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Enums\\IdentityRoles.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Enums\\IdentityRoles.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Enums\\IdentityRoles.cs",
+              "RelativeToolTip": "..\\Core\\Enums\\IdentityRoles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T18:10:58.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "TagCreateVm.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\TagViewModels\\TagCreateVm.cs",
+              "RelativeDocumentMoniker": "..\\Business\\ViewModels\\TagViewModels\\TagCreateVm.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\TagViewModels\\TagCreateVm.cs",
+              "RelativeToolTip": "..\\Business\\ViewModels\\TagViewModels\\TagCreateVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:03:33.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "TagService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\TagService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\TagService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\TagService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Concretes\\TagService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwBMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:05:23.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "BlogCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\BlogCategory.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\BlogCategory.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\BlogCategory.cs",
+              "RelativeToolTip": "..\\Core\\Models\\BlogCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:42:24.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwA8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:46:41.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Data\\DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\DAL\\AppDbContext.cs",
+              "RelativeToolTip": "..\\Data\\DAL\\AppDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T12:28:41.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\AccountService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\AccountService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\AccountService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\Concretes\\AccountService.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAkwKYAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T12:46:30.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
               "Title": "SliderRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\RepositoryConcretes\\SliderRepository.cs",
               "RelativeDocumentMoniker": "..\\Data\\RepositoryConcretes\\SliderRepository.cs",
@@ -887,7 +1135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 50,
               "Title": "ISliderService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\ISliderService.cs",
               "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\ISliderService.cs",
@@ -899,7 +1147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 52,
               "Title": "SliderCreateVm.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\SliderViewModels\\SliderCreateVm.cs",
               "RelativeDocumentMoniker": "..\\Business\\ViewModels\\SliderViewModels\\SliderCreateVm.cs",
@@ -911,7 +1159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 51,
               "Title": "IBlogService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IBlogService.cs",
               "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\IBlogService.cs",
@@ -923,7 +1171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 57,
               "Title": "Slider.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Slider.cs",
               "RelativeDocumentMoniker": "..\\Core\\Models\\Slider.cs",
@@ -935,7 +1183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 54,
               "Title": "ITagRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\RepositoryAbstract\\ITagRepository.cs",
               "RelativeDocumentMoniker": "..\\Core\\RepositoryAbstract\\ITagRepository.cs",
@@ -947,7 +1195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 59,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
@@ -959,19 +1207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "Controllers\\ContactController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:54:12.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 61,
               "Title": "LoginVm.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\AccountViewModels\\LoginVm.cs",
               "RelativeDocumentMoniker": "..\\Business\\ViewModels\\AccountViewModels\\LoginVm.cs",
@@ -983,7 +1219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 60,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
@@ -995,7 +1231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 62,
               "Title": "EmailVm.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\CommonViewModels\\EmailVm.cs",
               "RelativeDocumentMoniker": "..\\Business\\ViewModels\\CommonViewModels\\EmailVm.cs",
@@ -1007,7 +1243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 58,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IAccountService.cs",
               "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\IAccountService.cs",
@@ -1019,7 +1255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 63,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IEmailService.cs",
               "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\IEmailService.cs",
@@ -1031,19 +1267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\EmailService.cs",
-              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\EmailService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\EmailService.cs",
-              "RelativeToolTip": "..\\Business\\Services\\Concretes\\EmailService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBkAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T13:40:56.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 65,
               "Title": "RegisterVm.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\AccountViewModels\\RegisterVm.cs",
               "RelativeDocumentMoniker": "..\\Business\\ViewModels\\AccountViewModels\\RegisterVm.cs",
@@ -1055,7 +1279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 64,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -1067,19 +1291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "AboutController.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\AboutController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AboutController.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Controllers\\AboutController.cs",
-              "RelativeToolTip": "Controllers\\AboutController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:54:09.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 134,
               "Title": "20240626123937_addedIdentity.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Migrations\\20240626123937_addedIdentity.cs",
               "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240626123937_addedIdentity.cs",
@@ -1091,7 +1303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 66,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "..\\Core\\Models\\AppUser.cs",
@@ -1103,31 +1315,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 68,
               "Title": "AllUpProjectFinal",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\AllUpProjectFinal.csproj",
               "RelativeDocumentMoniker": "AllUpProjectFinal.csproj",
               "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\AllUpProjectFinal.csproj",
               "RelativeToolTip": "AllUpProjectFinal.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-26T12:20:55.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T12:20:55.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Contact\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Contact\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Contact\\Index.cshtml",
-              "RelativeToolTip": "Views\\Contact\\Index.cshtml",
-              "ViewState": "AQIAAFsAAAAAAAAAAIBJwGsAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T12:06:28.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 67,
               "Title": "AllUpProjectFinal.csproj",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\AllUpProjectFinal.csproj",
               "RelativeDocumentMoniker": "AllUpProjectFinal.csproj",
@@ -1135,12 +1334,11 @@
               "RelativeToolTip": "AllUpProjectFinal.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-23T11:26:29.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T11:26:29.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 69,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -1152,19 +1350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\About\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\About\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Views\\About\\Index.cshtml",
-              "RelativeToolTip": "Views\\About\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T12:06:14.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 77,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Setting\\Index.cshtml",
@@ -1176,7 +1362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 74,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Setting\\Create.cshtml",
@@ -1188,7 +1374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 72,
               "Title": "SettingController.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\SettingController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\SettingController.cs",
@@ -1200,7 +1386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 71,
               "Title": "SettingService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\SettingService.cs",
               "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\SettingService.cs",
@@ -1212,7 +1398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 78,
               "Title": "ISettingService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\ISettingService.cs",
               "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\ISettingService.cs",
@@ -1224,7 +1410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 73,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Setting\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Setting\\Update.cshtml",
@@ -1236,7 +1422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 70,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Blog\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Blog\\Update.cshtml",
@@ -1248,7 +1434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 79,
               "Title": "SettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\RepositoryConcretes\\SettingRepository.cs",
               "RelativeDocumentMoniker": "..\\Data\\RepositoryConcretes\\SettingRepository.cs",
@@ -1260,7 +1446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 80,
               "Title": "BlogService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\BlogService.cs",
               "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\BlogService.cs",
@@ -1272,7 +1458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 75,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\BlogCategory\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\BlogCategory\\Update.cshtml",
@@ -1284,7 +1470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 82,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Blog\\Create.cshtml",
@@ -1296,7 +1482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 76,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\BlogCategory\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\BlogCategory\\Index.cshtml",
@@ -1308,7 +1494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 81,
               "Title": "BlogController.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\BlogController.cs",
@@ -1320,7 +1506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 83,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Blog\\Detail.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Blog\\Detail.cshtml",
@@ -1332,7 +1518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 84,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Category\\Detail.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Detail.cshtml",
@@ -1344,7 +1530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 85,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Blog\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Blog\\Index.cshtml",
@@ -1356,7 +1542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 86,
               "Title": "BlogCreateVm.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\BlogViewModels\\BlogCreateVm.cs",
               "RelativeDocumentMoniker": "..\\Business\\ViewModels\\BlogViewModels\\BlogCreateVm.cs",
@@ -1368,7 +1554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 88,
               "Title": "BlogUpdateVm.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\BlogViewModels\\BlogUpdateVm.cs",
               "RelativeDocumentMoniker": "..\\Business\\ViewModels\\BlogViewModels\\BlogUpdateVm.cs",
@@ -1380,7 +1566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 132,
               "Title": "20240623195851_editedBlog.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Migrations\\20240623195851_editedBlog.cs",
               "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240623195851_editedBlog.cs",
@@ -1392,7 +1578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 89,
               "Title": "Blog.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Blog.cs",
               "RelativeDocumentMoniker": "..\\Core\\Models\\Blog.cs",
@@ -1404,7 +1590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 87,
               "Title": "FileValidator.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Extensions\\FileValidator.cs",
               "RelativeDocumentMoniker": "..\\Business\\Extensions\\FileValidator.cs",
@@ -1416,7 +1602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 90,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\BlogCategory\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\BlogCategory\\Create.cshtml",
@@ -1428,31 +1614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "BlogCategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\BlogCategoryService.cs",
-              "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\BlogCategoryService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\BlogCategoryService.cs",
-              "RelativeToolTip": "..\\Business\\Services\\Concretes\\BlogCategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:52:52.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "IBlogCategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IBlogCategoryService.cs",
-              "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\IBlogCategoryService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IBlogCategoryService.cs",
-              "RelativeToolTip": "..\\Business\\Services\\Abstracts\\IBlogCategoryService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAIwBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:50:00.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 91,
               "Title": "BlogCategoryCreateVm.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\BlogCategoryViewModels\\BlogCategoryCreateVm.cs",
               "RelativeDocumentMoniker": "..\\Business\\ViewModels\\BlogCategoryViewModels\\BlogCategoryCreateVm.cs",
@@ -1464,19 +1626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "..\\Core\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Product.cs",
-              "RelativeToolTip": "..\\Core\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:46:43.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 92,
               "Title": "ITestimonialRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\RepositoryAbstract\\ITestimonialRepository.cs",
               "RelativeDocumentMoniker": "..\\Core\\RepositoryAbstract\\ITestimonialRepository.cs",
@@ -1488,7 +1638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 93,
               "Title": "TagRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\RepositoryConcretes\\TagRepository.cs",
               "RelativeDocumentMoniker": "..\\Data\\RepositoryConcretes\\TagRepository.cs",
@@ -1500,7 +1650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 133,
               "Title": "20240623184547_addedBlogs.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Migrations\\20240623184547_addedBlogs.cs",
               "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240623184547_addedBlogs.cs",
@@ -1512,7 +1662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 94,
               "Title": "ProductImage.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\ProductImage.cs",
               "RelativeDocumentMoniker": "..\\Core\\Models\\ProductImage.cs",
@@ -1524,19 +1674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "ProductTag.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\ProductTag.cs",
-              "RelativeDocumentMoniker": "..\\Core\\Models\\ProductTag.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\ProductTag.cs",
-              "RelativeToolTip": "..\\Core\\Models\\ProductTag.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T15:50:31.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 95,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashboardController.cs",
@@ -1548,7 +1686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 100,
               "Title": "ProductUpdateVm.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\ProductViewModels\\ProductUpdateVm.cs",
               "RelativeDocumentMoniker": "..\\Business\\ViewModels\\ProductViewModels\\ProductUpdateVm.cs",
@@ -1560,7 +1698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 97,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductController.cs",
@@ -1572,7 +1710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 101,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Index.cshtml",
@@ -1584,7 +1722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 98,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Create.cshtml",
@@ -1596,7 +1734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 99,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Product\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Update.cshtml",
@@ -1608,7 +1746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 96,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Detail.cshtml",
@@ -1620,7 +1758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 102,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Category.cs",
               "RelativeDocumentMoniker": "..\\Core\\Models\\Category.cs",
@@ -1632,7 +1770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 103,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\RepositoryAbstract\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "..\\Core\\RepositoryAbstract\\IGenericRepository.cs",
@@ -1644,19 +1782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IProductService.cs",
-              "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\IProductService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IProductService.cs",
-              "RelativeToolTip": "..\\Business\\Services\\Abstracts\\IProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:31:25.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 104,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\RepositoryConcretes\\GenericRepository.cs",
               "RelativeDocumentMoniker": "..\\Data\\RepositoryConcretes\\GenericRepository.cs",
@@ -1668,7 +1794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 105,
               "Title": "BrandService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Concretes\\BrandService.cs",
               "RelativeDocumentMoniker": "..\\Business\\Services\\Concretes\\BrandService.cs",
@@ -1680,7 +1806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 106,
               "Title": "IBrandService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\IBrandService.cs",
               "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\IBrandService.cs",
@@ -1692,7 +1818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 107,
               "Title": "ITagService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\Services\\Abstracts\\ITagService.cs",
               "RelativeDocumentMoniker": "..\\Business\\Services\\Abstracts\\ITagService.cs",
@@ -1704,7 +1830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 108,
               "Title": "Testimonial.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Testimonial.cs",
               "RelativeDocumentMoniker": "..\\Core\\Models\\Testimonial.cs",
@@ -1716,7 +1842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 109,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Tag.cs",
               "RelativeDocumentMoniker": "..\\Core\\Models\\Tag.cs",
@@ -1728,7 +1854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 110,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CategoryController.cs",
@@ -1740,7 +1866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 115,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Tag\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Tag\\Index.cshtml",
@@ -1752,7 +1878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 112,
               "Title": "CategoryUpdateVm.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\CategoryViewModels\\CategoryUpdateVm.cs",
               "RelativeDocumentMoniker": "..\\Business\\ViewModels\\CategoryViewModels\\CategoryUpdateVm.cs",
@@ -1764,7 +1890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 111,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Category\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Update.cshtml",
@@ -1776,7 +1902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 130,
               "Title": "20240623130731_editCategories.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Migrations\\20240623130731_editCategories.cs",
               "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240623130731_editCategories.cs",
@@ -1788,7 +1914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 113,
               "Title": "CategoryCreateVm.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\CategoryViewModels\\CategoryCreateVm.cs",
               "RelativeDocumentMoniker": "..\\Business\\ViewModels\\CategoryViewModels\\CategoryCreateVm.cs",
@@ -1800,7 +1926,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 116,
               "Title": "BrandController.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\BrandController.cs",
@@ -1812,7 +1938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 114,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Tag\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Tag\\Create.cshtml",
@@ -1824,7 +1950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 117,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\RepositoryConcretes\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "..\\Data\\RepositoryConcretes\\CategoryRepository.cs",
@@ -1836,7 +1962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 118,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Brand\\Index.cshtml",
@@ -1848,7 +1974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 119,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Brand\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Brand\\Update.cshtml",
@@ -1860,7 +1986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 120,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Brand\\Create.cshtml",
@@ -1872,7 +1998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 122,
               "Title": "BrandUpdateVm.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\BrandViewModels\\BrandUpdateVm.cs",
               "RelativeDocumentMoniker": "..\\Business\\ViewModels\\BrandViewModels\\BrandUpdateVm.cs",
@@ -1884,7 +2010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 123,
               "Title": "BrandCreateVm.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Business\\ViewModels\\BrandViewModels\\BrandCreateVm.cs",
               "RelativeDocumentMoniker": "..\\Business\\ViewModels\\BrandViewModels\\BrandCreateVm.cs",
@@ -1896,7 +2022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 121,
               "Title": "TagController.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Controllers\\TagController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\TagController.cs",
@@ -1908,7 +2034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 131,
               "Title": "20240623114803_addedBrands.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Migrations\\20240623114803_addedBrands.cs",
               "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240623114803_addedBrands.cs",
@@ -1920,7 +2046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 124,
               "Title": "20240623114748_addedBranda.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Migrations\\20240623114748_addedBranda.cs",
               "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240623114748_addedBranda.cs",
@@ -1931,7 +2057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 125,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\AllUpProjectFinal\\Areas\\Admin\\Views\\Tag\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Tag\\Update.cshtml",
@@ -1943,7 +2069,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 126,
               "Title": "20240619160158_init.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\Migrations\\20240619160158_init.cs",
               "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240619160158_init.cs",
@@ -1955,7 +2081,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 127,
               "Title": "TestmonialRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Data\\RepositoryConcretes\\TestmonialRepository.cs",
               "RelativeDocumentMoniker": "..\\Data\\RepositoryConcretes\\TestmonialRepository.cs",
@@ -1967,7 +2093,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 128,
               "Title": "Setting.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Setting.cs",
               "RelativeDocumentMoniker": "..\\Core\\Models\\Setting.cs",
@@ -1979,7 +2105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 129,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\Desktop\\AllUpFinalProject\\Core\\Models\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "..\\Core\\Models\\Common\\BaseEntity.cs",

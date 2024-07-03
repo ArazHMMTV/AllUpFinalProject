@@ -164,9 +164,12 @@ public class ProductService : IProductService
 
     }
 
-    public async Task<List<Product>> GetAllAsync()
+    public async Task<List<Product>> GetAllAsync(int? categoryId = null)
     {
         var products = await _repository.GetAll("ProductImages", "Category").ToListAsync();
+
+        if (categoryId is not null)
+            products = products.Where(x => x.CategoryId == categoryId || x.Category.ParentId == categoryId).ToList();
 
         return products;
     }
@@ -208,7 +211,7 @@ public class ProductService : IProductService
         return vm;
     }
 
-  
+
     public async Task SendViewBagElements(dynamic ViewBag)
     {
         var categories = (await _categoryService.GetAllAsync()).Where(x => x.Children?.Count == 0).ToList();
@@ -222,12 +225,12 @@ public class ProductService : IProductService
 
     public async Task<bool?> UpdateAsync(ProductUpdateVm vm, ModelStateDictionary ModelState, dynamic ViewBag, string imagePath)
     {
-       await SendViewBagElements(ViewBag);
+        await SendViewBagElements(ViewBag);
 
         if (!ModelState.IsValid)
             return false;
 
-        var existProduct=await _getProductById(vm.Id);
+        var existProduct = await _getProductById(vm.Id);
 
         if (existProduct is null)
             return null;
@@ -273,7 +276,7 @@ public class ProductService : IProductService
             return false;
         }
 
-        if ( vm.HoverImage is not null && !vm.HoverImage.CheckImage())
+        if (vm.HoverImage is not null && !vm.HoverImage.CheckImage())
         {
             ModelState.AddModelError("HoverImage", "Please enter valid input");
             return false;
@@ -295,18 +298,18 @@ public class ProductService : IProductService
 
 
         existProduct.Name = vm.Name;
-        existProduct.Price=vm.Price;
-        existProduct.CategoryId=vm.CategoryId;
-        existProduct.BrandId=vm.BrandId;
-        existProduct.Discount=vm.Discount;
-        existProduct.Quantity=vm.Quantity;
-        existProduct.Price=vm.Price;
-        existProduct.Rating=vm.Rating;  
-        existProduct.LongDescription=vm.LongDescription;
-        existProduct.ShortDescription=vm.ShortDescription;
-        existProduct.ProductCode=vm.ProductCode;
-        
-        existProduct.ProductTags=new List<ProductTag>();
+        existProduct.Price = vm.Price;
+        existProduct.CategoryId = vm.CategoryId;
+        existProduct.BrandId = vm.BrandId;
+        existProduct.Discount = vm.Discount;
+        existProduct.Quantity = vm.Quantity;
+        existProduct.Price = vm.Price;
+        existProduct.Rating = vm.Rating;
+        existProduct.LongDescription = vm.LongDescription;
+        existProduct.ShortDescription = vm.ShortDescription;
+        existProduct.ProductCode = vm.ProductCode;
+
+        existProduct.ProductTags = new List<ProductTag>();
 
         foreach (var tagId in vm.TagIds)
         {
@@ -376,7 +379,7 @@ public class ProductService : IProductService
 
     private async Task<Product?> _getProductById(int id)
     {
-        return await _repository.GetSingleAsync(x => x.Id == id, "ProductImages", "Category", "Brand", "ProductTags");
+        return await _repository.GetSingleAsync(x => x.Id == id, "ProductImages", "Category", "Brand", "ProductTags.Tag");
     }
 
 }

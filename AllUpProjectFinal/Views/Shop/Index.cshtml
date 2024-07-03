@@ -1,0 +1,65 @@
+﻿@model List<Product>
+<section class="shop-area pt-20">
+    <div class="container-fluid custom-container">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="grid" role="tabpanel" aria-labelledby="grid-tab">
+                        <div class="row">
+                            @if (Model.Count > 0)
+                                @foreach (var product in Model)
+                                {
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="single-product mt-30">
+                                            <div class="product-image">
+                                                <a asp-action="Detail" asp-controller="Shop" asp-route-id="@product.Id">
+                                                    <img class="first-image" src="~/assets/images/@product.ProductImages.FirstOrDefault(x=>x.IsMain)?.Path" alt="product">
+                                                    <img class="second-image" src="~/assets/images/@product.ProductImages.FirstOrDefault(x=>x.IsHover)?.Path" alt="product">
+                                                </a>
+                                                <ul class="product-meta">
+                                                    <li><a href="#"><i class="icon ion-bag"></i></a></li>
+                                                    <li><a href="#"><i class="icon ion-android-favorite-outline"></i></a></li>
+                                                    <li><a href="#"><i class="icon ion-android-options"></i></a></li>
+                                                    <li><a data-toggle="modal" data-target="#productQuickModal" href="#"><i class="icon ion-android-open"></i></a></li>
+                                                </ul>
+                                                <span class="discount-product">-@Math.Ceiling(product.Discount)%</span>
+                                            </div>
+                                            <div class="product-content">
+                                                <h4 class="product-title"><a asp-action="Detail" asp-controller="Shop" asp-route-id="@product.Id">@product.Name</a></h4>
+                                                <ul class="product-rating">
+                                                    @for (int i = 0; i < product.Rating; i++)
+                                                    {
+
+                                                        <li class="rating-on"><i class="fas fa-star"></i></li>
+                                                    }
+
+                                                </ul>
+                                                <div class="product-price">
+                                                    <span class="regular-price">€@product.Price</span>
+                                                    <span class="price-sale">€@Math.Ceiling(product.Price - (product.Price * product.Discount / 100))</span>
+                                                </div>
+                                            </div>
+                                        </div> <!-- single product -->
+                                    </div>
+                                }
+                            else
+                            {
+                                <h2>Product not found</h2>
+                            }
+                        </div> <!-- row -->
+                    </div>
+                 
+                </div> <!-- Tab Content -->
+@* 
+                <ul class="pagination justify-content-center mt-30">
+                    <li><a href="#"><i class="fal fa-chevron-left"></i></a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#"><i class="fal fa-chevron-right"></i></a></li>
+                </ul> *@
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+</section>

@@ -1,4 +1,4 @@
-﻿
+﻿@model ContactVm
 <!--====== Contact PART START ======-->
 
 <div class="contact-map-area pt-50">
@@ -25,32 +25,32 @@
             <div class="col-lg-7 col-xl-8">
                 <div class="contact-form mt-30">
                     <h4 class="allup-title">Billing Address</h4>
-                    <form id="contact-form" action="https://demo.hasthemes.com/allup/allup/assets/contact.php" method="POST">
+                    <form id="contact-form"  method="post">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="single-form">
-                                    <input type="text" name="name" placeholder="Your Name">
+                                    <input type="text" asp-for="Name"  placeholder="Your Name">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single-form">
-                                    <input type="email" name="email" placeholder="Your Email">
+                                    <input type="email"  asp-for="Email" placeholder="Your Email">
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="single-form">
-                                    <input type="text" name="subject" placeholder="Subject">
+                                    <input type="text" asp-for="Subject" placeholder="Subject">
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="single-form">
-                                    <textarea name="message" placeholder="Your Message"></textarea>
+                                    <textarea asp-for="Message" placeholder="Your Message"></textarea>
                                 </div>
                             </div>
                             <p class="form-message"></p>
                             <div class="col-md-12">
                                 <div class="single-form">
-                                    <button class="main-btn main-btn-2">Send Message</button>
+                                    <button type="submit" class="main-btn main-btn-2">Send Message</button>
                                 </div>
                             </div>
                         </div>

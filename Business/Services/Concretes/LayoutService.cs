@@ -34,7 +34,7 @@ public class LayoutService : ILayoutService
     {
         var products = await _productService.GetAllAsync();
 
-        products = products.Where(x => x.Name.Contains(vm.SearchValue.ToLower())).ToList();
+        products = products.Where(x => x.Name.ToLower().Contains(vm.SearchValue.ToLower())).ToList();
 
         if(vm.CategoryId is not null)
             products=products.Where(x=>x.CategoryId==vm.CategoryId).ToList();

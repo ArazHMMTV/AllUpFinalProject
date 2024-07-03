@@ -55,7 +55,7 @@ public class BlogCategoryService : IBlogCategoryService
 
     public async Task<List<BlogCategory>> GetAllAsync()
     {
-        var categories = await _repository.GetAll().ToListAsync();
+        var categories = await _repository.GetAll("Blogs").ToListAsync();
 
         return categories;
     }

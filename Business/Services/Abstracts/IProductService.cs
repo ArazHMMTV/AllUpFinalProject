@@ -6,7 +6,7 @@ namespace Business.Services.Abstracts;
 
 public interface IProductService
 {
-    public Task<List<Product>> GetAllAsync();
+    public Task<List<Product>> GetAllAsync(int? categoryId=null);
     public Task SendViewBagElements(dynamic ViewBag);
     public Task<bool> CreateAsync(ProductCreateVm vm, ModelStateDictionary ModelState, dynamic ViewBag, string imagePath);
 

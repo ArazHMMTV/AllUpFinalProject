@@ -40,6 +40,7 @@ public class Program
         builder.Services.AddScoped<IEmailService,EmailService>();
         builder.Services.AddScoped<ISliderService, SliderService>();
         builder.Services.AddScoped<ILayoutService,LayoutService>();
+        builder.Services.AddScoped<IContactService,ContactService>();
 
         builder.Services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
 

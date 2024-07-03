@@ -14,15 +14,7 @@ public class HomeController : Controller
         _layoutService = layoutService;
     }
 
-    public async Task<IActionResult> Search(SearchVm vm)
-    {
-        if(!ModelState.IsValid)
-            return RedirectToAction(vm.ReturnUrl);
-
-        var result=await _layoutService.SearchAsync(vm);
-
-        return View("Index","Shop");
-    }
+  
     public IActionResult Index()
     {
         return View();
