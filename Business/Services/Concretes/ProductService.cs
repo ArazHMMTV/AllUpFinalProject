@@ -174,9 +174,40 @@ public class ProductService : IProductService
         return products;
     }
 
+    public async Task<List<Product>> GetBestProducts()
+    {
+        var products = await _repository.GetAll("ProductImages").ToListAsync();
+
+        products = products.OrderByDescending(x => x.Quantity).Take(2).ToList();
+
+        return products;
+    }
+
     public async Task<Product?> GetByIdAsync(int id)
     {
         return await _getProductById(id);
+    }
+
+    public async Task<List<Product>> GetNewProducts()
+    {
+        var products = await _repository.GetAll("ProductImages").OrderByDescending(x => x.Id).Take(12).ToListAsync();
+
+        return products;
+    }
+
+    public async Task<List<Product>> GetBestSellerProducts()
+    {
+        var products = await _repository.GetAll("ProductImages").OrderBy(x => x.Quantity).Take(12).ToListAsync();
+
+        return products;
+    }
+
+
+    public async Task<List<Product>> GetProductsByCategoryId(int categoryId)
+    {
+        var products = await _repository.GetFiltered(x => x.CategoryId == categoryId, "ProductImages").ToListAsync();
+
+        return products;
     }
 
     public async Task<ProductUpdateVm?> GetUpdatedProductAsync(int id, dynamic ViewBag)
@@ -328,14 +359,39 @@ public class ProductService : IProductService
         if (vm.MainImage is not null)
         {
             existProduct.ProductImages.FirstOrDefault(x => x.IsMain)?.Path.DeleteImage(imagePath);
-            existProduct.ProductImages.FirstOrDefault(x => x.IsMain).Path = await vm.MainImage.CreateImageAsync(imagePath);
+            string filename= await vm.MainImage.CreateImageAsync(imagePath);
+            if (existProduct.ProductImages.FirstOrDefault(x => x.IsMain) is not null)
+                existProduct.ProductImages.FirstOrDefault(x => x.IsMain).Path = filename;
+            else
+            {
+                ProductImage image = new()
+                {
+                    IsMain = true,
+                    Path = filename,
+                    Product = existProduct
+                };
+                existProduct.ProductImages.Add(image);
+            }
         }
 
 
         if (vm.HoverImage is not null)
         {
             existProduct.ProductImages.FirstOrDefault(x => x.IsHover)?.Path.DeleteImage(imagePath);
-            existProduct.ProductImages.FirstOrDefault(x => x.IsHover).Path = await vm.HoverImage.CreateImageAsync(imagePath);
+            string filename = await vm.HoverImage.CreateImageAsync(imagePath);
+            if (existProduct.ProductImages.FirstOrDefault(x => x.IsHover) is not null)
+                existProduct.ProductImages.FirstOrDefault(x => x.IsHover).Path = filename;
+
+            else
+            {
+                ProductImage image = new()
+                {
+                    IsHover = true,
+                    Path = filename,
+                    Product = existProduct
+                };
+                existProduct.ProductImages.Add(image);
+            }
         }
 
 

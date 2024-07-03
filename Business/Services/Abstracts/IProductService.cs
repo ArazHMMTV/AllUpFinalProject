@@ -15,6 +15,9 @@ public interface IProductService
     public Task<bool?> UpdateAsync(ProductUpdateVm vm, ModelStateDictionary ModelState, dynamic ViewBag, string imagePath);
     public Task<Product?> GetByIdAsync(int id);
 
-
+    public Task<List<Product>> GetBestProducts();
+    public Task<List<Product>> GetProductsByCategoryId(int categoryId);
+    public Task<List<Product>> GetNewProducts();
+    public Task<List<Product>> GetBestSellerProducts();
 
 }

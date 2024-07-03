@@ -7,7 +7,7 @@ namespace Business.Services.Abstracts;
 
 public interface IBlogService
 {
-    public Task<List<Blog>> GetAllAsync();
+    public Task<List<Blog>> GetAllAsync(int? categoryId=null);
     public Task<bool> CreateAsync(BlogCreateVm vm, ModelStateDictionary ModelState, dynamic ViewBag, string imagePath);
 
     public Task<bool> DeleteAsync(int id, string imagePath);

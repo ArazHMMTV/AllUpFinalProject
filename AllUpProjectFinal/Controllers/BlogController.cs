@@ -14,14 +14,34 @@ public class BlogController : Controller
         _blogCategoryService = blogCategoryService;
     }
 
-    public async Task<IActionResult> Index()
+    public async Task<IActionResult> Index(int? categoryId=null)
     {
         BlogVm vm = new()
         {
             BlogCategories=await _blogCategoryService.GetAllAsync(),
-            Blogs=await _blogService.GetAllAsync(),
+            Blogs=await _blogService.GetAllAsync(categoryId),
         };
 
         return View(vm);
     }
+
+
+    public async Task<IActionResult> Detail(int id)
+    {
+        var result=await _blogService.GetByIdAsync(id);
+
+        if (result is null)
+            return NotFound();
+
+        BlogVm vm = new()
+        {
+            BlogCategories = await _blogCategoryService.GetAllAsync(),
+            Blog=result
+        };
+
+
+        return View(vm);
+    } 
+
+
 }

@@ -77,9 +77,12 @@ public class BlogService : IBlogService
 
     }
 
-    public async Task<List<Blog>> GetAllAsync()
+    public async Task<List<Blog>> GetAllAsync(int? categoryId = null)
     {
         var blogs = await _repository.GetAll("BlogCategory").ToListAsync();
+
+        if(categoryId != null)
+            blogs=blogs.Where(x=>x.BlogCategoryId == categoryId).ToList();
 
         return blogs;
     }
