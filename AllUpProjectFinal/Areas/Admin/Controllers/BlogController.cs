@@ -1,10 +1,13 @@
 ﻿using Business.Services.Abstracts;
 using Business.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 
 namespace AllUpProjectFinal.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = "Admin")]
+
 public class BlogController : Controller
 {
     private readonly IBlogService _service;

@@ -1,9 +1,12 @@
 ﻿using Business.Services.Abstracts;
 using Core.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AllUpProjectFinal.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = "Admin")]
+
 public class SettingController : Controller
 {
     private readonly ISettingService _service;

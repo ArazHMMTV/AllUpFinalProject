@@ -1,9 +1,12 @@
 ﻿using Business.Services.Abstracts;
 using Business.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AllUpProjectFinal.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = "Admin")]
+
 public class CategoryController : Controller
 {
     private readonly ICategoryService _service;
